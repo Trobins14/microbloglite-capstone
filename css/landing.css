@@ -1,0 +1,93 @@
+/* General Styles */
+body {
+    font-family: 'Chakra Petch', sans-serif; /* Use Chakra Petch font family */
+    background: linear-gradient(45deg, #52801f, #79bd44, #52801f); /* Gradient background using specified greens */
+    color: black; /* Pink text color */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-top: 50px; /* Margin for the top container */
+    text-align: center;
+}
+
+.button-container {
+    margin-top: 100px; /* Adjust as needed */
+    text-align: center;
+}
+
+.button-container h4 {
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+.btn {
+    background-color: skyblue; /* Green button background */
+    color: #ffffff; /* White text color */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: white; /* Lighter green on hover */
+    border-color: darkblue;
+}
+
+/* Modal styles */
+.modal-content {
+    background-color: skyblue; /* Green modal background */
+    color: #ffffff; /* White text color */
+}
+
+.modal-header {
+    border-bottom: none; /* Remove border from modal header */
+    padding-bottom: 0;
+}
+
+.modal-title {
+    color: #ffffff; /* White color for modal title */
+}
+
+/* Footer styles */
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: skyblue; /* Adjust as per your design */
+    color: #fff; /* Adjust text color as needed */
+    padding: 10px 20px; /* Adjust padding according to your design */
+    text-align: center; /* Center align text within the footer */
+}
+
+.footer p {
+    margin: 5px 0;
+}
+
+/* Background animation */
+.bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: linear-gradient(45deg, white, White, White); Same gradient as body
+    animation: bgAnimation 15s infinite;
+}
+
+.bg2 {
+    animation-delay: 5s;
+}
+
+.bg3 {
+    animation-delay: 10s;
+}
+
+@keyframes bgAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}

@@ -1,6 +1,6 @@
 /* Landing Page JavaScript */
 
-"use strict";
+
 
 const loginForm = document.querySelector("#login");
 

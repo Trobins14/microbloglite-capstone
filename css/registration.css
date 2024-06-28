@@ -1,0 +1,26 @@
+/* Registration Form Specific Styles */
+.signup {
+    text-align: center;
+}
+
+.signup .form-control {
+    margin-bottom: 15px;
+    background-color: #ffffff; /* White input background */
+    color: #52801f; /* Green text color */
+}
+
+.signup .btn {
+    background-color: white; /* Lighter green button */
+    color: black; /* White text color */
+}
+
+.signup .btn:hover {
+    background-color: ; /* Darker green on hover */
+}
+
+/* Error message styling */
+#registration-error {
+    margin-top: 10px;
+}
+
+/* Additional custom styles for components can be added here */

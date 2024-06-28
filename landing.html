@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alora - Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/landing.css">
+    <link rel="stylesheet" href="css/registration.css">
+      <!-- Run BEFORE page is finished loading (before window.onload): -->
+      <script src="scripts/auth.js"></script>
+</head>
+
+<body> 
+    
+       <div class="button-container chakra-petch-semibold">
+        <h4 style="color: black;">Come and Show us your vibe!</h4>
+        <!-- Button to trigger modal -->
+        <button class="btn color-animation box-shadow-animation" data-bs-toggle="modal" data-bs-target="#registrationModal" id="openModalBtn">Join Us</button>
+    </div>
+    <div class="container chakra-petch-semibold box-shadow-animation" id="lounge">
+        <form class="login">
+        <h2 id="welcomeText" style="color: black" class="text-center">Spread Your Aura!</h2>
+        <div class="login-form" id="login">
+
+            
+            <div class="container login box-shadow-animation" id="middleBox">
+                <!-- <span class="text-center">Welcome Home! Your canvas is waiting</span> -->
+                <label for="username" class="form-label">Username</label>
+                <input type="text" id="loginUsername" placeholder="Username" required>
+                <label for="password" class="form-label">Password</label>
+                <input type="password" id="loginPassword" placeholder="Password" required>
+                <button class="btn color-animation box-shadow-animation" style="margin-top: 20px;" id="loginButton" type="submit">Log In</button>
+            </div>
+    
+        </div>
+        </form>
+    </div>
+
+
+    <!-- Registration Modal -->
+    <div class="modal fade" id="registrationModal" tabindex="-1" aria-labelledby="registrationModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content" id="myModal">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="registrationModalLabel">Your journey begins</h5>
+                    <button type="button" class="btn-close close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <!-- Registration form content -->
+                    <form id="registrationForm" class="signup">
+                        <div class="mb-3">
+                            <label for="username" class="form-label">Username</label>
+                            <input type="text" class="form-control" id="username" autocomplete="username" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Full Name</label>
+                            <input type="name" class="form-control" id="fullname"  autocomplete="fullname" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="password" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="password"  autocomplete="password" required>
+                        </div>
+                        <div class="button-area">
+                        <button type="submit" class="btn color-animation" id="signupButton">Sign Up</button>
+                    </div>
+                    </form>
+                    <div id="registration-error" style="display: none; color: red;"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer-content chakra-petch-semibold color-animation " style="height: 50px;">
+            <p>Feel the Aura</p>
+            <section class="section-break"></section>
+            
+        </div>
+      </footer>
+    <div class="bg"></div>
+    <div class="bg bg2"></div>
+    <div class="bg bg3"></div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+<script src="scripts/landing.js"></script>
+<script src="scripts/login.js"></script>
+<script src="scripts/registration.js"></script>
+
+</html>
+

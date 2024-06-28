@@ -1,0 +1,74 @@
+/* profile.css */
+
+body {
+    font-family: 'Chakra Petch', sans-serif;
+    background-color: #f8f9fa;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.profile-section {
+    margin-bottom: 20px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background-color: #0069d9;
+    border-color: #0062cc;
+}
+
+.form-control {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+textarea.form-control {
+    resize: vertical;
+}
+
+img {
+    border-radius: 100rem;
+    width 10%;
+}
+
+#profile-bio {
+    margin-left: 25%;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: skyblue; /* Adjust as per your design */
+    color: #fff; /* Adjust text color as needed */
+    padding: 10px 20px; /* Adjust padding according to your design */
+    text-align: center; /* Center align text within the footer */
+}
+
+.button-flex #createButton{
+    margin-left: 10rem;
+    border-radius: ;
+    border-color: #0062cc;
+}
+/* button {
+    position: fixed;
+    margin-bottom: ;
+    border-radius: 10;
+
+} */
